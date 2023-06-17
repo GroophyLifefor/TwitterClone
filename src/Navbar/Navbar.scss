@@ -1,0 +1,34 @@
+.navbar {
+  flex-grow: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+
+  .icon {
+    fill: white;
+    user-select: none;
+    width: 30px;
+    height: 30px;
+    padding: 15px 10px;
+    align-items: center;
+    cursor: pointer;
+  
+    .splash {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: gray;
+      opacity: 0;
+      transition: opacity 0.8s ease;
+      transform: translate(-10px, -10px);
+    }
+  
+    &:hover {
+      .splash {
+        opacity: 0.4;
+      }
+    }
+  }
+}

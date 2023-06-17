@@ -1,0 +1,12 @@
+.trend {
+  flex-grow: 4;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  color: gray;
+
+  @media (max-width: 999px) {
+    display: none;
+  }
+}

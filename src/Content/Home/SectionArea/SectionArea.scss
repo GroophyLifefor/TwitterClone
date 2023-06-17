@@ -1,0 +1,20 @@
+.section-area {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+
+    p {
+        font-family: TwitterChirp, sans-serif;
+        font-size: 14px;
+        color: rgb(231, 233, 234);
+        line-height: 24px;
+        vertical-align: baseline;
+        word-spacing: 0px;
+        font-weight: 700;
+        font-style: normal;
+        font-variant: normal;
+        text-transform: none;
+        text-decoration: none solid rgb(231, 233, 234);
+    }
+}
+

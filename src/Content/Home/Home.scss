@@ -1,0 +1,24 @@
+.home {
+  border-style: solid;
+  border-top: 0px;
+  border-width: 1px;
+  border-color: rgb(94, 94, 94, 0.5);
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+    margin: 20px;
+    font-family: TwitterChirp, sans-serif;
+    font-size: 20px;
+    color: rgb(231, 233, 234);
+    line-height: 24px;
+    vertical-align: baseline;
+    word-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(231, 233, 234);
+}

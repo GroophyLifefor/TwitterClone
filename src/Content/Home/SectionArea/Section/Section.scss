@@ -1,0 +1,36 @@
+.section {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+
+  p {
+    color: gray;
+  }
+
+  p.active {
+    color: white;
+  }
+
+  .active-highlight {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .box {
+      width: 60px;
+      height: 4px;
+      background-color: rgb(29, 155, 240);
+      position: absolute;
+      top: calc(100% - 1px);
+      border-radius: 3px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &:hover {
+    background-color: rgb(24, 24, 24);
+  }
+}

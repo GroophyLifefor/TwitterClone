@@ -1,0 +1,16 @@
+.viewport {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: fit-content;
+
+}
+
+.innerport {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    min-width: 600px;
+}
